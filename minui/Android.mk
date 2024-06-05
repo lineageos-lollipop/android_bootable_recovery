@@ -7,7 +7,8 @@ common_src_files := graphics.c graphics_adf.c graphics_fbdev.c events.c \
 
 common_c_includes := \
     external/libpng\
-    external/zlib
+    external/zlib \
+    system/core/adf/libadf/include
 
 common_additional_dependencies :=
 

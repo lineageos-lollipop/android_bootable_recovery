@@ -44,6 +44,9 @@
 #define ARRAY_SIZE(x) (sizeof(x)/sizeof(x[0]))
 #endif
 
+extern minui_backend* open_fbdev();
+extern minui_backend* open_adf();
+
 typedef struct {
     char        name[80];
     GRFont*     font;
